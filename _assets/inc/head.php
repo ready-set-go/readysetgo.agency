@@ -22,9 +22,6 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="/_assets/css/styles.css" media="screen">
+	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Signika:700,300,600' type='text/css'>
 
-	<!-- JavaScript -->
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="/_assets/js/main.js"></script>
 

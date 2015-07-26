@@ -1,0 +1,92 @@
+
+/******** START MAIN HEADER AND NAVIGATION STYLES *********/
+
+
+nav {
+	position: relative;
+	ul {
+		position: absolute;
+		left: -260px;
+		top: 66px;
+		top: 40px;
+		overflow: hidden;
+		z-index: 1;
+		padding-top: 40px;
+		li {
+			font-size: 1.04em;
+			.signika-bold;
+			text-transform: uppercase;
+			padding: 10px 0;
+			letter-spacing: 4px;
+			a {
+				color: @white;
+				text-decoration: none;
+			}
+		}
+		&.expand {
+			left: 97px;
+			.transition;
+		}
+	}
+}
+
+button.menu-btn {
+	border: none;
+	background: none;
+	position: fixed;
+	left: 97px;
+	padding-top: 40px;
+	height: 75px;
+}
+.lines {
+	display: inline-block;
+	width: 4em;
+	height: 0.5em;
+	background: @white;
+	border-radius: 0.1em;
+	transition: 0.3s;
+	position: relative;
+}
+.menu-btn.x.close {
+	.lines {
+		background: transparent;
+
+	}
+	.lines:before {
+		-webkit-transform: rotate3d(0, 0, 1, 45deg);
+		transform: rotate3d(0, 0, 1, 45deg);
+	}
+	.lines:after {
+		-webkit-transform: rotate3d(0, 0, 1, -45deg);
+		transform: rotate3d(0, 0, 1, -45deg);
+	}
+	.lines:before, .lines:after {
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		top: 0;
+		width: 4em;
+	}
+}
+
+.lines:before {
+	top: 1em;
+}
+.lines:after {
+	top: -1em;
+}
+.lines:before, .lines:after {
+	display: inline-block;
+	width: 4em;
+	height: .5em;
+	background: @white;
+	border-radius: 0.1em;
+	transition: 0.3s;
+	position: absolute;
+	left: 0;
+	content: '';
+	-webkit-transform-origin: 0.28571em center;
+	transform-origin: 0.28571em center;
+}
+
+
+/******** END MAIN HEADER AND NAVIGATION STYLES *********/

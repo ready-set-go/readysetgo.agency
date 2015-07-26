@@ -1,61 +1,17 @@
 // JavaScript Document
 
-// codekit pre-prends
-
-// set initial variables
-var $showMenu,
-	$header,
-	$content;
-
-$(function() {
-	firstLoad();
-});
-
-function firstLoad() {
-	initVars();
-	showMenu();
-	checkScreenSize();
-	initPlaceholders();
-}
-
-// function to set dom vars, etc that will not change
-function initVars() {
-	$nav 	= $('header.main nav.main-nav ul');
-	$showMenu 	= $('a#showMenu');
-}
-
-$(window).resize(function() {
-	checkScreenSize();
-});
-
-// checks to see if screen size requires mobile menu
-function checkScreenSize(){
-	if ($(window).width() < 950) {
-		$nav.removeClass('expand');
-	} else {
-		$nav.removeClass('expand');
-	}
-}
-
 // show hide left menu
-function showMenu(){
-	$showMenu.click(function(){
-		if ($nav.hasClass('expand')) {
-			menuOut();
+
+	$('.menu-btn').click(function(){
+		if($('nav ul').hasClass('expand')){
+			$('nav ul').removeClass('expand');
+			$('.menu-btn').removeClass('close');
+
 		} else {
-			menuIn();
+			$('nav ul').addClass('expand');
+			$('.menu-btn').addClass('close');
 		}
-		return false;
 	});
-}
-function menuOut() {
-	$nav.removeClass('expand');
-	//$content.unbind('click',menuOut);
-}
-function menuIn() {
-	$nav.addClass('expand');
-	//$content.bind('click',menuOut);
-}
 
 // this function fixes placeholders in browsers that don't support it
 function initPlaceholders() {
@@ -89,3 +45,13 @@ function placeholderSupported() {
     test = document.createElement('input');
     return ('placeholder' in test);
 }
+
+function firstLoad() {
+	initVars();
+	showMenu();
+	initPlaceholders();
+}
+
+$(function() {
+	firstLoad();
+});
