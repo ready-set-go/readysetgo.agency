@@ -337,6 +337,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25844,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/inc\/connect.php": {
 		"fileType": 8192,
 		"ignore": 0,
