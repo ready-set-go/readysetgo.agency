@@ -8,8 +8,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title></title>
-	<meta name="description" content="">
+	<title>Ready Set Go Collective</title>
+	<meta name="description" content="Ready Set Go is a collective of freelancers who have combined their creative talents to provide collaborative digital marketing solutions.">
 	
 	<!--[if lt IE 8]>
 	    <p class="browsehappy">You are using an outdated browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
@@ -23,5 +23,9 @@
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="/_assets/css/styles.css" media="screen">
 	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Signika:700,300,600' type='text/css'>
+
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="/_assets/js/smoothscroll.js"></script>
 
 

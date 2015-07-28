@@ -444,6 +444,24 @@ div.inner {
   width: 80%;
   margin: 0 auto;
 }
+h2 {
+  font-size: 2.5em;
+  color: #fcb315;
+  text-align: center;
+  font-family: 'Signika', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  padding: 120px 0 83px;
+}
+p {
+  color: #505152;
+  font-size: 1.625em;
+  line-height: 1.5384615384615385em;
+  padding-bottom: 22px;
+  font-family: 'Signika', sans-serif;
+  font-weight: 300;
+}
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
 /*===============================================*/
@@ -455,7 +473,6 @@ nav {
 nav ul {
   position: absolute;
   left: -260px;
-  top: 66px;
   top: 40px;
   overflow: hidden;
   z-index: 1;
@@ -484,10 +501,30 @@ nav ul.expand {
 button.menu-btn {
   border: none;
   background: none;
-  position: fixed;
+  position: absolute;
   left: 97px;
-  padding-top: 40px;
   height: 75px;
+  display: block;
+}
+button.menu-btn.x.close .lines {
+  background: transparent;
+  height: 75px;
+  display: block;
+}
+button.menu-btn.x.close .lines:before {
+  -webkit-transform: rotate3d(0, 0, 1, 45deg);
+  transform: rotate3d(0, 0, 1, 45deg);
+}
+button.menu-btn.x.close .lines:after {
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(0, 0, 1, -45deg);
+}
+button.menu-btn.x.close .lines:before,
+button.menu-btn.x.close .lines:after {
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  top: 40px;
+  width: 4em;
 }
 .lines {
   display: inline-block;
@@ -497,24 +534,6 @@ button.menu-btn {
   border-radius: 0.1em;
   transition: 0.3s;
   position: relative;
-}
-.menu-btn.x.close .lines {
-  background: transparent;
-}
-.menu-btn.x.close .lines:before {
-  -webkit-transform: rotate3d(0, 0, 1, 45deg);
-  transform: rotate3d(0, 0, 1, 45deg);
-}
-.menu-btn.x.close .lines:after {
-  -webkit-transform: rotate3d(0, 0, 1, -45deg);
-  transform: rotate3d(0, 0, 1, -45deg);
-}
-.menu-btn.x.close .lines:before,
-.menu-btn.x.close .lines:after {
-  -webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  top: 0;
-  width: 4em;
 }
 .lines:before {
   top: 1em;
@@ -535,6 +554,31 @@ button.menu-btn {
   content: '';
   -webkit-transform-origin: 0.28571em center;
   transform-origin: 0.28571em center;
+}
+.socials {
+  position: relative;
+}
+.socials div {
+  position: absolute;
+  right: 97px;
+  top: 40px;
+  z-index: 1;
+}
+.socials div span {
+  color: #ffffff;
+  font-size: 2.5em;
+}
+.socials div a {
+  display: block;
+  margin-bottom: 15px;
+}
+.socials div a:hover span {
+  color: #505152;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 /******** END MAIN HEADER AND NAVIGATION STYLES *********/
 /******** START MAIN FOOTER STYLES *********/
@@ -1045,7 +1089,18 @@ html[xmlns] .slides {
 /* (Styles for pages with elements occuring in ways specific to the page.) */
 header {
   background: url(/_assets/img/skates.jpg) no-repeat center top #fcb315;
-  height: 1333px;
+  height: 780px;
+}
+#logo {
+  width: 100%;
+  padding-top: 200px;
+}
+#logo span {
+  margin: 0 auto;
+  display: block;
+  width: 285px;
+  color: #ffffff;
+  font-size: 20em;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
