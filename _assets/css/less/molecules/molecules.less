@@ -7,8 +7,8 @@ body {
 }
 
 div.inner {
-	max-width: 1000px;
-	width: 80%;
+	max-width: 900px;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -34,13 +34,83 @@ h2 {
 }
 
 h3 {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 100px 0 65px;
+	.signika-light;
+	font-size: 7.5em;
+	letter-spacing: 2px;
+	text-shadow: 4px 3px 0px #4d4d4d, 9px 8px 0px rgba(0,0,0,0.15);				
+}
 
+h4 {
+	.signika-bold;
+	font-size: 2.5em;
+	line-height: 1.2em;
+	color: @white;
+}
+
+h5 {
+	.signika-black;
+	color: @black;
+	text-transform: uppercase;
+	font-size: 1.875em;
+}
+
+h6 {
+	.signika-light;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	color: @white;
+	text-align: center;
 }
 
 p {
-	color: @black;
+	color: @white;
 	font-size: 1.625em;
 	line-height: 1.5384615384615385em;
 	padding-bottom: 22px;
 	.signika-light;
+}
+
+ul {
+	margin-left: 20px;
+	li {
+		color: @white;
+		line-height: 2em;
+		list-style-type: disc;
+		.signika-bold;
+		ul {
+			li {
+				.signika-light;
+			}
+		}
+	}
+}
+
+.btn {
+	display: block;
+	width: 100%;
+	text-align: center;
+	outline: none;
+	border: none;
+	text-transform: uppercase;
+	color: @white;
+	background-color: @yellow;
+	letter-spacing: 5px;
+	padding: 10px 20px;
+	margin: 0 auto 20px;
+	font-size: 1em;
+	.signika-light;
+    -webkit-box-shadow: 5px 5px 0 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: 5px 5px 0 0 rgba(0,0,0,0.15);
+    box-shadow: 5px 5px 0 0 rgba(0,0,0,0.15);
+    &:hover {
+		color: @black;
+		background-color: @pink;
+	    -webkit-box-shadow: 5px 5px 0 0 rgba(255,255,255,.1);
+	    -moz-box-shadow: 5px 5px 0 0 rgba(255,255,255,.1);
+	    box-shadow: 5px 5px 0 0 rgba(255,255,255,.1);
+	    .transition;
+    }
 }

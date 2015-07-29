@@ -1,17 +1,17 @@
 </head>
 <body>
 
-	<button type="button" role="button" class="menu-btn x">
-    
-    	<span class="lines"></span>
-    
-    </button>
-
 	<nav>
+
+		<button type="button" role="button" class="menu-btn x">
+
+			<span class="lines"></span>
+
+		</button>
 
 		<ul>
 
-			<li><a href="#top" id="top-link">Welcome</a></li>
+			<li><a href="#welcome" id="welcome-link">Welcome</a></li>
 
 			<li><a href="#philosophy" id="philosophy-link">Philosophy</a></li>
 

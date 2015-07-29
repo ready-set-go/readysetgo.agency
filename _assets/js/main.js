@@ -46,6 +46,10 @@ function placeholderSupported() {
     return ('placeholder' in test);
 }
 
+
+
+
+
 function firstLoad() {
 	initVars();
 	showMenu();
