@@ -17,9 +17,9 @@
 
 			<li><a href="#services" id="services-link">Services</a></li>
 
-			<li><a href="#work" id="work-link">Work</a></li>
-
 			<li><a href="#team" id="team-link">Team</a></li>
+
+			<li><a href="#work" id="work-link">Work</a></li>
 
 			<li><a href="#contact" id="contact-link">Contact</a></li>
 

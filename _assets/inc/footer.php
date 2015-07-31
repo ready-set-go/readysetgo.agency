@@ -3,25 +3,21 @@
 
 		</footer>
 
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('.fancybox').fancybox();
+<script type="text/javascript">
+ 	$(document).ready(function() {
+ 		$('.fancybox').fancybox();
 
-
-
-    });
-
-
-    $(function(){
-      SyntaxHighlighter.all();
-    });
-    $(window).load(function(){
       $('.flexslider').flexslider({
         animation: "fade",
         start: function(slider){
           $('body').removeClass('loading');
         }
       });
+
+    });
+
+
+  $(window).load(function() {
 
     $(function(){
 
@@ -63,13 +59,13 @@
       });
     });
 
+});
+</script>
 
-    });
-  </script>
 
 	<!-- JavaScript -->
-	<script src="/_assets/js/main.js"></script>
 	<script src="/_assets/js/isotope.jquery.min.js"></script>
+  <script src="/_assets/js/main.js"></script>
 	<script src="/_assets/js/flexslider.jquery.js"></script>
 	<script src="/_assets/js/fancybox.jquery.js"></script>
 

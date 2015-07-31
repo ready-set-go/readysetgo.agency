@@ -51,8 +51,6 @@ function placeholderSupported() {
 
 
 function firstLoad() {
-	initVars();
-	showMenu();
 	initPlaceholders();
 }
 

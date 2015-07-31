@@ -202,16 +202,16 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/_assets\/css\/less\/pages\/intro.less": {
+	"\/_assets\/css\/less\/pages\/contact.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/intro.less",
-		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/intro.css",
+		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/contact.less",
+		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/contact.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -461,7 +461,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1612,
+		"initialSize": 1569,
 		"inputAbbreviatedPath": "\/_assets\/img\/bg_direction_nav.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/bg_direction_nav.png",
 		"outputPathIsOutsideProject": 0,
@@ -545,6 +545,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/slider-arnold.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7145,
+		"inputAbbreviatedPath": "\/_assets\/img\/slider-arnold.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/slider-arnold.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/slider-maddox.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11260,
+		"inputAbbreviatedPath": "\/_assets\/img\/slider-maddox.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/slider-maddox.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/slider-smith.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1141,
+		"inputAbbreviatedPath": "\/_assets\/img\/slider-smith.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/slider-smith.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/slider-strazi.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6667,
+		"inputAbbreviatedPath": "\/_assets\/img\/slider-strazi.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/slider-strazi.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/slider-stunt-double.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5622,
+		"inputAbbreviatedPath": "\/_assets\/img\/slider-stunt-double.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/slider-stunt-double.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/slider-ttm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5910,
+		"inputAbbreviatedPath": "\/_assets\/img\/slider-ttm.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/slider-ttm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/team-andre-eric.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -552,6 +618,39 @@
 		"initialSize": 66511,
 		"inputAbbreviatedPath": "\/_assets\/img\/team-andre-eric.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/team-andre-eric.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/team-arnold-jay.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60703,
+		"inputAbbreviatedPath": "\/_assets\/img\/team-arnold-jay.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/team-arnold-jay.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/team-buckley-molly.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61018,
+		"inputAbbreviatedPath": "\/_assets\/img\/team-buckley-molly.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/team-buckley-molly.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/team-buckley-ryan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63689,
+		"inputAbbreviatedPath": "\/_assets\/img\/team-buckley-ryan.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/team-buckley-ryan.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -589,6 +688,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/team-maddox-lindsey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65545,
+		"inputAbbreviatedPath": "\/_assets\/img\/team-maddox-lindsey.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/team-maddox-lindsey.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/team-oss-katy.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -607,6 +717,28 @@
 		"initialSize": 61832,
 		"inputAbbreviatedPath": "\/_assets\/img\/team-slamon-alison.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/team-slamon-alison.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/team-smith-abbey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67760,
+		"inputAbbreviatedPath": "\/_assets\/img\/team-smith-abbey.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/team-smith-abbey.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/team-thornton-greg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67364,
+		"inputAbbreviatedPath": "\/_assets\/img\/team-thornton-greg.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/team-thornton-greg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

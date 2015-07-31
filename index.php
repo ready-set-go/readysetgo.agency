@@ -431,133 +431,133 @@
 
 		<div id="container" class="clearfix">
 
-			<article class="work-item content design">
+			<a class="work-item content design" href="http://www.angryeagle.com" target="_blank">
 
 				<div class="overlay"></div><!--overlay-->
 
-				<a href="http://www.angryeagle.com" target="_blank"><img src="/_assets/img/work-angry.png" alt="Angry Eagle Website" title="Angry Eagle Lodge & Outfitters Marketing Package"></a>
+				<img src="/_assets/img/work-angry.png" alt="Angry Eagle Website" title="Angry Eagle Lodge & Outfitters Marketing Package">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design">
+			<a class="work-item design" href="http://www.trentthibodeaux.com/" target="_blank">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-dutchess.png" alt="The Duke and the Dutchess" title="Type treatment by Trent Thibodeaux">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design development">
+			<a class="work-item design development">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-dykes.png" alt="Dykes Restaurant Supply" title="Website design and development by Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design development">
+			<a class="work-item design development">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-el.png" alt="Energy Logic" title="Website development and design by Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design development">
+			<a class="work-item design development">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-kof.png" alt="Knockout Fitness" title="Website development and design by Lindsey Maddox of Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design">
+			<a class="work-item design">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-language.png" alt="Language Lesson" title="Graphic design by Trent Thibodeaux of Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design">
+			<a class="work-item design">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-meadows.png" alt="Travis Meadows" title="Graphic design by Katy Oss of Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design">
+			<a class="work-item design">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-mobaglo.png" alt="Mobaglo logo" title="Branding by Stunt Double Creative of Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item development">
+			<a class="work-item development">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-ncdc.png" alt="Nashville Civic Design Center" title="Marketing package by Kevin Kennedy of Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design development">
+			<a class="work-item design development">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-nh.png" alt="Neighborhood Health" title="Website design and development by Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design">
+			<a class="work-item design">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-pepsi.png" alt="Pepsi cans" title="can design by Stunt Double Creative of Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design development content">
+			<a class="work-item design development">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-sdc.png" alt="Stunt Double Creative" title="Stunt Double Creative website by Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design development">
+			<a class="work-item design development">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-sitemason.png" alt="Sitemason" title="Sitemason website by Kevin Kennedy of Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design development">
+			<a class="work-item design development">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-so.png" alt="Special Olympics" title="Special Olympics website by Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design">
+			<a class="work-item design">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-triplets.png" alt="The Haden Triplets" title="Type treatment by Trent Thibodeaux of Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
-			<article class="work-item design development">
+			<a class="work-item design development">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<img src="/_assets/img/work-tsu.png" alt="TSU Men's Basketball" title="TSU Men's Basketball website by members of Ready Set Go, Inc.">
 
-			</article><!--portfolio-item-->
+			</a><!--portfolio-item-->
 
 		</div><!--container-->
 
@@ -571,7 +571,43 @@
 
 	<div class="inner">
 
-		<h2>Let’s get this straight: <br/>We are not your typical creative agency.</h2>
+		<div class="left">
+			
+			<span class="icon-logo-footer"></span>
+
+		</div><!--left-->
+
+		<div class="right">
+
+			<p>Affiliates:</p>
+
+			<div class="slider">
+		        <div class="flexslider carousel">
+			        <ul class="slides">
+			            <li>
+			  	    	    <a href="http://strazi.org/" target="_blank"><img src="/_assets/img/slider-strazi.png" alt="logo for Strazi - The Design of Kevin Kennedy" title="I am a graphic designer that specializes in web design, user interfaces, and illustration." /></a>
+			  	    	</li>
+			  	    	<li>
+			  	    	    <a href="http://www.jayarnoldcreative.com/" target="_blank"><img src="/_assets/img/slider-arnold.png" alt="logo for Jay Arnold Creative" title="User Experience | Web Design | Branding" /></a>
+			  	    	</li>
+			  	    	<li>
+			  	    	    <a href="http://www.stuntdoublecreative.com/" target="_blank"><img src="/_assets/img/slider-stunt-double.png" alt="Nashville-based agency, Stunt Double Creative" title="Branding, Print, Web Design, Illustration" /></a>
+			  	    	</li>
+			  	    	<li>
+			  	    	    <a href="http://www.lindseymaddox.com/" target="_blank"><img src="/_assets/img/slider-maddox.png" alt="Lindsey Maddox, Front End Developer logo" title="Lindsey Maddox makes websites." /></a>
+			  	    	</li>
+			  	    	<li>
+			  	    	    <a href="http://tell-talemedia.com/" target="_blank"><img src="/_assets/img/slider-ttm.png" alt="Nashville based tell-tale Media specializes in the creation of all things graphic design and film related." title="Lindsey Maddox makes websites." /></a>
+			  	    	</li>
+			  	    	<li>
+			  	    	    <a href="http://www.abbeysmithcreative.com/" target="_blank"><img src="/_assets/img/slider-smith.png" alt="Abbey Smith Creative specializes in content development and strategy, editing services, and public relations" title="Lindsey Maddox makes websites." /></a>
+			  	    	</li>
+			        </ul>
+			    </div>
+	      </div>
+
+
+		</div><!--right-->
 
 	</div><!--inner-->
 

@@ -554,6 +554,7 @@ nav ul {
   overflow: hidden;
   z-index: 1;
   padding-top: 40px;
+  margin-left: 0;
 }
 nav ul li {
   font-size: 1.04em;
@@ -973,19 +974,7 @@ html[xmlns] .slides {
 /* FlexSlider Default Theme
 *********************************/
 .flexslider {
-  margin: 0 0 60px;
-  padding: 60px 0;
-  background: #fff;
-  border: 4px solid #fff;
-  position: relative;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px 0;
   zoom: 1;
 }
 .flex-viewport {
@@ -1186,18 +1175,12 @@ header {
   color: #ffffff;
   font-size: 20em;
 }
-section#welcome,
-section#team,
-section#contact,
-section#work,
-section#services {
-  background-color: #505152;
-}
 section#welcome {
   padding-bottom: 50px;
+  background-color: #505152;
 }
 section.bg {
-  height: 383px;
+  height: 260px;
   width: 100%;
 }
 section.bg h4 {
@@ -1322,9 +1305,10 @@ section#team h3 {
   color: #ed146c;
 }
 section#team article {
-  width: 30%;
+  width: 21%;
   margin: 0 1.5% 50px;
   display: inline-block;
+  vertical-align: top;
 }
 section#team article img {
   display: block;
@@ -1345,43 +1329,43 @@ section#work {
 section#work h3 {
   color: #26b2a0;
 }
-section#work article {
-  width: 30%;
-  margin: 0 1.5% 50px;
+section#work a {
+  width: 15%;
+  margin: 0 1.5% 20px;
   display: inline-block;
   position: relative;
+  height: 135px;
 }
-section#work article img {
+section#work a img {
   display: block;
   width: 100%;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   position: absolute;
   top: 0;
   left: 0;
-  height: 263px;
 }
-section#work article p {
+section#work a p {
   color: #ed146c;
   font-size: 1em;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-section#work article.design .overlay {
+section#work a.design .overlay {
   background-color: #fcb315;
 }
-section#work article.content .overlay {
+section#work a.content .overlay {
   background-color: #26b2a0;
 }
-section#work article.development .overlay {
+section#work a.development .overlay {
   background-color: #ed146c;
 }
-section#work article.video .overlay {
-  background-color: #e6e7e8;
+section#work a.video .overlay {
+  background-color: #a074b5;
 }
-section#work article .overlay {
+section#work a .overlay {
   width: 100%;
-  height: 263px;
+  height: 135px;
   position: absolute;
   top: 0;
   left: 0;
@@ -1402,6 +1386,7 @@ section#work ul#filters a {
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
+  height: auto;
 }
 section#work ul#filters a.design-link {
   color: #fcb315;
@@ -1413,10 +1398,37 @@ section#work ul#filters a.development-link {
   color: #ed146c;
 }
 section#work ul#filters a.video-link {
-  color: #e6e7e8;
+  color: #a074b5;
 }
 section#work ul#filters a.selected {
   color: #ffffff;
+}
+section#contact {
+  padding-bottom: 50px;
+  background-color: #505152;
+}
+section#contact .left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  margin: 40px 9% 40px 0;
+}
+section#contact .left span {
+  font-size: 13em;
+  color: #ffffff;
+}
+section#contact .right {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+}
+section#contact .right p {
+  float: left;
+  padding: 50px 0 0 140px;
+}
+section#contact .right .slider {
+  width: 25%;
+  float: right;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
